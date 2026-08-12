@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "Maintain performance while losing 2 kg for weight category competition in 5 days",
+      "restrictions": "No dairy due to lactose intolerance"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with breakfast, lunch, dinner, and snacks",
+      "Total daily calories create modest deficit (~300-500 kcal below maintenance) suitable for gradual weight loss",
+      "All meals are dairy-free and avoid lactose-containing products",
+      "Meal plan prioritizes lean protein sources and maintains adequate carbohydrates for athletic performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport with weight categories (boxer or wrestler) requiring a lean meal plan that maintains performance while managing daily caloric deficit for weight management"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - high-intensity endurance with carbohydrate loading for optimal performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one full day (breakfast, lunch, dinner, snacks)",
+      "Macronutrient ratio emphasizes carbohydrates (55-65%), with adequate protein (1.2-1.6g per kg body weight) and moderate fat (20-30%)",
+      "Total daily caloric intake aligns with high-intensity endurance athlete needs (approximately 3000-3500 calories)",
+      "Plan is compact and concise (no more than 5-7 sentences per meal description)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, with specific macronutrient ratios"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle recovery and strength gains with optimized protein distribution around weightlifting workout",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans 24 hours with 4-5 meals clearly scheduled",
+      "Protein distributed across meals (minimum 25g per meal, ~1.6-2.2g per kg bodyweight daily)",
+      "Pre-workout and post-workout meals strategically timed around training session",
+      "Compact format with concise meal descriptions (no lengthy recipes)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) focusing on muscle recovery with emphasis on protein distribution across meals and meal timing around workouts"
+  }
+]

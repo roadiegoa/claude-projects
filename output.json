@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# One-Day Marathon Training Meal Plan\n**Athlete Profile:** 178 cm, 68 kg, Endurance Training\n\n---\n\n## 1. DAILY CALORIC NEEDS CALCULATION\n\n**Basal Metabolic Rate (BMR):**\n- BMR = 10(68) + 6.25(178) - 5(age assumed 25) + 5\n- BMR \u2248 **1,700 calories**\n\n**Activity Multiplier:** Marathon training (high-intensity) = 1.7\n- **Daily Calories Needed: 2,890 calories**\n\n*Rounded to 2,900 calories for practical planning*\n\n---\n\n## 2. MACRONUTRIENT BREAKDOWN\n\nFor marathon training with carb-loading:\n\n| Macronutrient | Percentage | Grams | Calories |\n|---|---|---|---|\n| **Carbohydrates** | 60% | 435g | 1,740 cal |\n| **Protein** | 15% | 109g | 436 cal |\n| **Fat** | 25% | 81g | 729 cal |\n\n---\n\n## 3. MEAL TIMING STRATEGY\n\n- **7:00 AM** - Pre-workout breakfast\n- **9:00 AM** - Workout (90 min)\n- **10:30 AM** - Post-workout recovery meal\n- **1:00 PM** - Lunch\n- **4:00 PM** - Pre-dinner snack\n- **7:00 PM** - Dinner\n- **9:00 PM** - Optional light snack\n\n---\n\n## 4 & 5. COMPLETE MEAL PLAN WITH PORTIONS\n\n### **BREAKFAST (7:00 AM)** | Pre-Workout\n*550 cal | 85g carbs | 20g protein | 8g fat*\n\n| Food | Portion | Details |\n|---|---|---|\n| Oatmeal (dry) | 60g | Quick oats, easy digestion |\n| Banana | 150g | 1 medium, natural sugars |\n| Honey | 20g | 1 tbsp, quick energy |\n| Whole milk | 200ml | 1 cup |\n| Almonds | 15g | Small handful |\n\n**Preparation:** Cook oats in milk, top with banana slices, honey, and almonds\n\n---\n\n### **POST-WORKOUT SNACK (10:30 AM)** | Recovery Window\n*400 cal | 72g carbs | 18g protein | 5g fat*\n\n| Food | Portion | Details |\n|---|---|---|\n| White bread | 90g | 2 slices, quick carbs |\n| Peanut butter | 25g | 1.5 tbsp |\n| Honey | 15g | 1 tbsp |\n| Chocolate milk | 250ml | 1 cup |\n\n**Preparation:** Toast bread, spread peanut butter + honey. Drink chocolate milk on the side.\n\n---\n\n### **LUNCH (1:00 PM)** | Main Meal\n*750 cal | 95g carbs | 30g protein | 15g fat*\n\n| Food | Portion | Details |\n|---|---|---|\n| Grilled chicken breast | 150g | Lean protein |\n| Brown rice (cooked) | 200g | Complex carbs |\n| Broccoli (roasted) | 150g | Vegetables, fiber |\n| Olive oil | 15ml | 1 tbsp for cooking |\n| Orange | 150g | 1 medium, vitamin C |\n\n**Preparation:** Season and grill chicken, steam rice, roast broccoli with olive oil and salt\n\n---\n\n### **AFTERNOON SNACK (4:00 PM)** | Pre-Dinner Energy\n*320 cal | 65g carbs | 12g protein | 4g fat*\n\n| Food | Portion | Details |\n|---|---|---|\n| Greek yogurt | 150g | High protein, probiotics |\n| Granola | 40g | 1/3 cup |\n| Berries (mixed) | 100g | Fresh or frozen |\n| Honey drizzle | ",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training - high-intensity endurance with carbohydrate loading for optimal performance",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers all meals for one full day (breakfast, lunch, dinner, snacks)",
+        "Macronutrient ratio emphasizes carbohydrates (55-65%), with adequate protein (1.2-1.6g per kg body weight) and moderate fat (20-30%)",
+        "Total daily caloric intake aligns with high-intensity endurance athlete needs (approximately 3000-3500 calories)",
+        "Plan is compact and concise (no more than 5-7 sentences per meal description)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, with specific macronutrient ratios"
+    },
+    "score": 4,
+    "reasoning": "The solution demonstrates strong structure and methodology with proper BMR calculations, clear macronutrient ratios, and detailed meal formatting with portions. However, it has a CRITICAL FLAW: the solution is truncated and incomplete. The afternoon snack description ends mid-sentence without finishing, and dinner and the optional evening snack are entirely missing. This violates the mandatory requirement to 'cover all meals for one full day.' Additionally, the calculated daily total of 2,900 calories falls short of the 3,000-3,500 calorie recommendation for high-intensity endurance athletes. While the meals shown are well-constructed and meet secondary criteria, the incomplete delivery and caloric shortfall are significant deficiencies."
+  },
+  {
+    "output": "# One-Day Athletic Meal Plan\n**Athlete Profile: 180 cm, 85 kg | Goal: Muscle Recovery & Strength**\n\n---\n\n## STEP 1: DAILY CALORIE CALCULATION\n\n**Base Metabolic Rate (Mifflin-St Jeor):**\n- BMR = 10(85) + 6.25(180) - 5(30*) + 5 = **1,863 kcal**\n  \n*Assuming ~30 years old; adjust if different\n\n**With Activity Factor (Moderate-Heavy Training):**\n- Daily Calories = 1,863 \u00d7 1.55 = **2,887 kcal**\n- **Target: 2,900 kcal** (rounded)\n\n---\n\n## STEP 2: MACRONUTRIENT BREAKDOWN\n\n| Macro | Target | Grams |\n|-------|--------|-------|\n| **Protein** | 2.0g/kg bodyweight | 170g |\n| **Carbs** | 5-6g/kg bodyweight | 425-510g |\n| **Fat** | 20-25% of calories | 64-81g |\n\n**Daily Target:**\n- **170g Protein** (680 kcal)\n- **460g Carbs** (1,840 kcal)\n- **72g Fat** (648 kcal)\n\n---\n\n## STEP 3: WORKOUT TIMING & MEAL STRATEGY\n\n**Workout: 5:00 PM - 6:30 PM (Weightlifting)**\n\n| Meal | Timing | Purpose |\n|------|--------|---------|\n| Breakfast | 7:00 AM | Foundation |\n| Mid-Morning Snack | 10:00 AM | Sustained energy |\n| Lunch | 1:00 PM | Pre-workout fuel |\n| Pre-Workout | 3:30 PM | Quick energy + digestion |\n| Post-Workout | 7:00 PM | **Immediate recovery** \u2b50 |\n| Dinner | 8:30 PM | Complete macros |\n\n---\n\n## STEP 4 & 5: FULL ONE-DAY MEAL PLAN\n\n### **BREAKFAST - 7:00 AM** | 530 kcal | P: 35g | C: 65g | F: 10g\n\n| Food | Amount | Protein | Carbs | Fat |\n|------|--------|---------|-------|-----|\n| Oatmeal (dry) | 80g | 10g | 54g | 5g |\n| Whole milk | 250ml | 8g | 12g | 5g |\n| Banana | 1 medium (120g) | 1g | 27g | 0g |\n| Honey | 1 tbsp (20g) | 0g | 17g | 0g |\n| **Totals** | | **19g** | **110g** | **10g** |\n\n**Preparation:** Cook oatmeal in milk, top with sliced banana and honey drizzle\n\n---\n\n### **MID-MORNING SNACK - 10:00 AM** | 280 kcal | P: 22g | C: 30g | F: 6g\n\n| Food | Amount | Protein | Carbs | Fat |\n|------|--------|---------|-------|-----|\n| Greek yogurt (2%) | 200g | 18g | 7g | 2.5g |\n| Mixed berries | 150g | 2g | 20g | 0g |\n| Granola | 30g | 7g | 24g | 3.5g |\n| **Totals** | | **27g** | **51g** | **6g** |\n\n**Note:** High protein snack to maintain amino acid levels\n\n---\n\n### **LUNCH - 1:00 PM** | 680 kcal | P: 50g | C: 75g | F: 14g\n\n| Food | Amount | Protein | Carbs | Fat |\n|------|--------|---------|-------|-----|\n| Chicken breast (cooked)",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Muscle recovery and strength gains with optimized protein distribution around weightlifting workout",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan spans 24 hours with 4-5 meals clearly scheduled",
+        "Protein distributed across meals (minimum 25g per meal, ~1.6-2.2g per kg bodyweight daily)",
+        "Pre-workout and post-workout meals strategically timed around training session",
+        "Compact format with concise meal descriptions (no lengthy recipes)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) focusing on muscle recovery with emphasis on protein distribution across meals and meal timing around workouts"
+    },
+    "score": 3,
+    "reasoning": "The solution demonstrates strong planning methodology and excellent structure for the first two meals, with proper caloric targeting (2,900 kcal) and protein distribution strategy (170g daily, ~2.0g/kg). However, it FAILS the mandatory requirement of providing 'exact foods, portions' for all meals because the solution is truncated mid-lunch and never completes the remaining meals. Additionally, there are calculation errors in the macro totals for breakfast and mid-morning snack. While the first two meals appear to meet the 25g protein minimum, the incomplete nature of the plan prevents verification that all meals meet this criterion. The solution cannot be considered a complete 1-day meal plan as required."
+  },
+  {
+    "output": "# One-Day Meal Plan for Weight Category Competition\n\n## 1. DAILY CALORIE CALCULATION\n\n**Basal Metabolic Rate (BMR):**\n- Using Mifflin-St Jeor: BMR = 1,706 kcal\n\n**Total Daily Energy Expenditure:**\n- BMR \u00d7 1.7 (athletic activity factor) = 2,900 kcal\n- **Deficit for 2 kg in 5 days:** 2,900 - 400 = **2,500 kcal/day**\n  *(This creates ~800 kcal deficit needed, adjusted to sustainable 400 kcal)*\n\n---\n\n## 2. MACRONUTRIENT TARGETS\n\n| Macro | Amount | Rationale |\n|-------|--------|-----------|\n| **Protein** | 150g (24%) | Preserve muscle during deficit |\n| **Carbs** | 287g (46%) | Fuel performance & recovery |\n| **Fat** | 83g (30%) | Hormonal health & satiety |\n\n---\n\n## 3. MEAL TIMING (Assuming afternoon/evening training)\n\n- **7:00 AM** - Breakfast\n- **10:00 AM** - Mid-morning snack\n- **1:00 PM** - Lunch\n- **3:30 PM** - Pre-workout snack\n- **6:00 PM** - Training (60-90 min)\n- **7:30 PM** - Post-workout meal\n- **10:00 PM** - Light evening snack (optional)\n\n---\n\n## 4-6. COMPLETE MEAL PLAN\n\n### **BREAKFAST** (7:00 AM)\n*600 kcal | P: 35g | C: 72g | F: 12g*\n\n- Oatmeal: **80g** dry\n- Banana: **180g** (1 large)\n- Almond butter: **15g** (1 tbsp)\n- Water or unsweetened almond milk: **200ml**\n- Salt & cinnamon to taste\n\n**Preparation:** Cook oatmeal, top with sliced banana and almond butter\n\n---\n\n### **MID-MORNING SNACK** (10:00 AM)\n*200 kcal | P: 20g | C: 25g | F: 2g*\n\n- Greek yogurt alternative (coconut-based): **200g**\n- Granola (dairy-free): **40g**\n- Blueberries: **80g**\n\n**Why this combo:** Quick protein + digestible carbs for mid-day energy\n\n---\n\n### **LUNCH** (1:00 PM)\n*700 kcal | P: 45g | C: 85g | F: 12g*\n\n- Chicken breast (skinless): **200g** grilled\n- Jasmine rice: **200g** cooked\n- Broccoli: **150g** steamed\n- Olive oil: **10ml** for cooking\n- Low-sodium soy sauce: **15ml**\n\n**Preparation:** Season chicken with garlic & herbs, serve over rice with vegetables\n\n---\n\n### **PRE-WORKOUT SNACK** (3:30 PM)\n*300 kcal | P: 8g | C: 65g | F: 3g*\n\n- White rice cakes: **100g** (~3 cakes)\n- Honey: **20g** (drizzle)\n- Banana: **100g** (\u00bd medium)\n\n**Why:** Quick-digesting carbs, minimal fiber to avoid GI distress during training\n\n---\n\n### **POST-WORKOUT MEAL** (7:30 PM, within 45 min of training)\n*450 kcal | P: 42g | C: 40g | F: 8g*\n\n- Salmon fillet: **180g** baked\n- Sweet potato: **150g** roasted\n- Asparagus: **120g** steamed\n- Olive oil spray: **5ml**\n- Lemon juice & black pepper\n\n**Why:** Protein + omega-3s for recovery; carbs replenish glycogen\n\n---\n\n### **EVENING",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "75 kg",
+        "goal": "Maintain performance while losing 2 kg for weight category competition in 5 days",
+        "restrictions": "No dairy due to lactose intolerance"
+      },
+      "solution_criteria": [
+        "Meal plan spans exactly 1 day with breakfast, lunch, dinner, and snacks",
+        "Total daily calories create modest deficit (~300-500 kcal below maintenance) suitable for gradual weight loss",
+        "All meals are dairy-free and avoid lactose-containing products",
+        "Meal plan prioritizes lean protein sources and maintains adequate carbohydrates for athletic performance"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport with weight categories (boxer or wrestler) requiring a lean meal plan that maintains performance while managing daily caloric deficit for weight management"
+    },
+    "score": 3,
+    "reasoning": "The solution demonstrates strong structure and understanding of athletic nutrition principles. It includes detailed calculations, proper dairy-free substitutions, and well-timed meals for athletic performance. However, it FAILS mandatory requirements: (1) The output is incomplete/truncated, cutting off before the evening snack is fully described; (2) No explicit daily caloric total is provided in summary form; (3) No consolidated daily macronutrient breakdown summary exists to verify targets. While the partial meals shown total approximately 2,650 kcal (close to the stated 2,500 target), the incomplete nature and missing summary sections violate the mandatory requirement for 'exact foods, portions, and' complete information. The weight loss math is also concerning but secondary to the incompleteness issue."
+  }
+]
