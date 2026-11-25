@@ -14,16 +14,9 @@ from core.cli import CliApp
 load_dotenv()
 
 # Anthropic Config
-# claude_model = os.getenv("CLAUDE_MODEL", "")
 claude_model = os.environ.get("ANTHROPIC_MODEL")
-# anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "")
-anthropic_api_key=os.environ.get("ANTHROPIC_AUTH_TOKEN")
 
-
-assert claude_model, "Error: CLAUDE_MODEL cannot be empty. Update .env"
-assert anthropic_api_key, (
-    "Error: ANTHROPIC_API_KEY cannot be empty. Update .env"
-)
+assert claude_model, "Error: ANTHROPIC_MODEL cannot be empty. Update .env"
 
 
 async def main():

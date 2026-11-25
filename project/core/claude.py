@@ -1,14 +1,19 @@
 import os
+
 from anthropic import Anthropic
 from anthropic.types import Message
+
+auth_kwargs = (
+    {"api_key": os.environ["ANTHROPIC_API_KEY"]}
+    if os.environ.get("ANTHROPIC_API_KEY")
+    else {"auth_token": os.environ.get("ANTHROPIC_AUTH_TOKEN")}
+)
+client = Anthropic(base_url=os.environ.get("ANTHROPIC_BASE_URL"), **auth_kwargs)
 
 
 class Claude:
     def __init__(self, model: str):
-        self.client = Anthropic(
-            api_key=os.environ.get("ANTHROPIC_AUTH_TOKEN"),
-            base_url=os.environ.get("ANTHROPIC_BASE_URL"),
-        )
+        self.client = client
         self.model = model
 
     def add_user_message(self, messages: list, message):
